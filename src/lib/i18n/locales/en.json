@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Home",
+    "templates": "Templates",
+    "explore": "Explore Realms",
+    "settings": "Settings"
+  },
+  "home": {
+    "hero": {
+      "title": "Forge Your Legend",
+      "subtitle": "Create your unique character sheet and share your epic journey",
+      "cta": "Begin Your Quest"
+    },
+    "templates": {
+      "title": "Legendary Templates",
+      "useTemplate": "Choose This Path"
+    },
+    "featured": {
+      "title": "Tales of Fellow Adventurers",
+      "viewSheet": "Read Their Tale"
+    }
+  },
+  "templates": {
+    "title": "Choose Your Template",
+    "subtitle": "Select a template to start creating your character sheet",
+    "search": "Search templates...",
+    "filter": "Filter",
+    "categories": {
+      "all": "All",
+      "Professional": "Professional",
+      "Creative": "Creative",
+      "Technical": "Technical",
+      "Academic": "Academic",
+      "Personal": "Personal",
+      "Gaming": "Gaming"
+    },
+    "sort": {
+      "popular": "Most Popular",
+      "recent": "Most Recent",
+      "rating": "Highest Rated"
+    },
+    "preview": {
+      "title": "Template Preview",
+      "empty": "Select a template to preview",
+      "use": "Use This Template",
+      "edit": "Edit template"
+    },
+    "editor": {
+      "title": "Edit Template",
+      "save": "Save changes",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "success": "Template saved successfully",
+      "error": "Failed to save template"
+    },
+    "stats": {
+      "uses": "uses",
+      "by": "By"
+    },
+    "loading": "Loading templates...",
+    "noResults": "No templates found matching your criteria"
+  }
+}

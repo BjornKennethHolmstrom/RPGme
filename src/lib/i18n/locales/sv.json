@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Hem",
+    "templates": "Mallar",
+    "explore": "Utforska Världar",
+    "settings": "Inställningar"
+  },
+  "home": {
+    "hero": {
+      "title": "Forma Din Legend",
+      "subtitle": "Skapa ditt unika karaktärsblad och dela din episka resa",
+      "cta": "Påbörja Ditt Äventyr"
+    },
+    "templates": {
+      "title": "Legendariska Mallar",
+      "useTemplate": "Välj Denna Väg"
+    },
+    "featured": {
+      "title": "Andra Äventyrares Berättelser",
+      "viewSheet": "Läs Deras Historia"
+    }
+  },
+  "templates": {
+    "title": "Välj Din Mall",
+    "subtitle": "Välj en mall för att börja skapa ditt karaktärsblad",
+    "search": "Sök efter mallar...",
+    "filter": "Filtrera",
+    "categories": {
+      "all": "Alla",
+      "Professional": "Professionell",
+      "Creative": "Kreativ",
+      "Technical": "Teknisk",
+      "Academic": "Akademisk",
+      "Personal": "Personlig",
+      "Gaming": "Spel"
+    },
+    "sort": {
+      "popular": "Mest Populära",
+      "recent": "Senaste",
+      "rating": "Högst Betyg"
+    },
+    "preview": {
+      "title": "Förhandsgranskning",
+      "empty": "Välj en mall för att förhandsgranska",
+      "use": "Använd Denna Mall",
+      "redigera": "Redigera mall"
+    },
+    "redigerare": {
+      "titel": "Redigera mall",
+      "spara": "Spara ändringar",
+      "sparar": "Sparar...",
+      "avbryt": "Avbryt",
+      "framgång": "Mallen sparades framgångsrikt",
+      "fel": "Misslyckades med att spara mallen"
+    },
+    "stats": {
+      "uses": "användningar",
+      "by": "Av"
+    },
+    "loading": "Laddar mallar...",
+    "noResults": "Inga mallar hittades som matchar dina kriterier"
+  }
+}

@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base colors and theme */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url('/images/subtle-pattern.jpg');
+  background-attachment: fixed;
+  @apply bg-cover bg-center;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  /* Layout and spacing */
+  .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 1;
+  }
+  
+  .space-x-8 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 1;
+  }
+
+  /* Margins */
+  .ml-2, .ml-3, .ml-4, .ml-6, .ml-8 {
+    margin-left: 0;
+    margin-right: var(--tw-space-x-reverse);
+  }
+  
+  .mr-2, .mr-3, .mr-4, .mr-6, .mr-8 {
+    margin-right: 0;
+    margin-left: var(--tw-space-x-reverse);
+  }
+
+  /* Text alignment */
+  .text-left {
+    text-align: right;
+  }
+  .text-right {
+    text-align: left;
+  }
+
+  /* Flexbox */
+  .flex {
+    &.rtl-reverse {
+      flex-direction: row-reverse;
+    }
+  }
+
+  /* Icons and decorative elements */
+  .icon-reverse {
+    transform: scaleX(-1);
+  }
+
+  /* Border radius adjustments */
+  .rounded-l-lg {
+    border-radius: 0;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  
+  .rounded-r-lg {
+    border-radius: 0;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+
+  /* Positioning */
+  .left-0 {
+    left: auto;
+    right: 0;
+  }
+  
+  .right-0 {
+    right: auto;
+    left: 0;
+  }
+}
+
+/* Background Patterns */
+.bg-scroll-pattern {
+  background-image: url('/images/subtle-pattern.jpg');
+  background-repeat: repeat;
+  @apply bg-opacity-10;
+}
+
+/* Cards and Container Styles */
+.card {
+  @apply bg-white/90 backdrop-blur-sm rounded-lg border border-gray-200 shadow-sm;
+}
+
+.container-fluid {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Navigation */
+.nav-link {
+  @apply inline-flex items-center px-1 pt-1 border-b-2 border-transparent
+         font-medium hover:text-blue-600 hover:border-blue-600 transition-colors;
+}
+
+/* Interactive Elements */
+.btn {
+  @apply inline-flex items-center justify-center px-4 py-2 rounded-lg
+         font-medium transition-colors;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+/* Forms */
+.input {
+  @apply w-full px-3 py-2 border rounded-lg 
+         focus:ring-2 focus:ring-blue-500 focus:border-blue-500;
+}
+
+/* Transitions */
+.transition-fast {
+  @apply transition-all duration-150 ease-in-out;
+}
+
+.transition-normal {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+/* Typography */
+.text-responsive {
+  @apply text-base sm:text-lg lg:text-xl;
+}
+
+/* Scrollbar */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) transparent;
+  
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    border-radius: 3px;
+  }
+}

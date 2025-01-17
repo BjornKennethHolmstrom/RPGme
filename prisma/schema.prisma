@@ -1,0 +1,141 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  accounts       Account[]
+  sessions       Session[]
+  characterSheets CharacterSheet[]  // Changed to allow multiple sheets
+  connections    Connection[]
+  achievements   Achievement[]
+  templates      SheetTemplate[]    // Added templates relation
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model CharacterSheet {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  // Basic info
+  name        String   // Added name field
+  class       String?
+  level       Int      @default(1)
+  alignment   String?
+  background  String?
+  
+  // Custom fields stored as JSON
+  data        Json     // Changed to store all template-based data in one field
+  
+  // Customization
+  theme       Json?    // Custom styling
+  layout      Json?    // Layout configuration
+  
+  // Privacy and status
+  isPublished Boolean  @default(false)
+  visibility  String   @default("private") // private, friends, public
+  
+  // Metadata
+  viewCount   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Template relationship
+  templateId      String
+  sheetTemplate   SheetTemplate @relation(fields: [templateId], references: [id])
+
+  @@index([userId])
+}
+
+model SheetTemplate {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  structure   Json     // Defines the template structure
+  isDefault   Boolean  @default(false)
+  isPublic    Boolean  @default(true)
+  
+  // Creator relationship
+  creatorId   String
+  creator     User     @relation(fields: [creatorId], references: [id], onDelete: Cascade)
+  
+  // Metadata
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relationships
+  sheets      CharacterSheet[]
+
+  @@index([creatorId])
+}
+
+model Connection {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  targetId    String
+  status      String   // pending, accepted, blocked
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([userId, targetId])
+}
+
+model Achievement {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title       String
+  description String?
+  category    String?
+  unlockedAt  DateTime @default(now())
+  
+  @@index([userId])
+}

@@ -1,0 +1,151 @@
+|--------------------------------------------------|
+| Human male, 44 years old, Swedish                |
+|--------------------------------------------------|
+| Character Class:                                 |
+| "Philosopher-Engineer"                           |
+| A hybrid thinker-doer with a penchant for        |
+| solving big problems, asking even bigger         |
+| questions, and occasionally breaking the rules.  |
+|--------------------------------------------------|
+| Alignment:                                       |
+| Neutral Good with Chaotic tendencies: Favors     |
+| balance, fairness, and a sustainable, harmonious |
+| future, but is open to something beyond that.    |
+|--------------------------------------------------|
+| Backstory:                                       |
+| Born and raised in Sweden, Björn pursued         |
+| intellectual growth and creativity from a        |
+| young age. Overcoming challenges, he has         |
+| devoted himself to improving the world           |
+| through technology, philosophy, politics and     |
+| occasionally arts.                               |
+|--------------------------------------------------|
+| STAT              Concretized by                 |
+| Strength      13  PB 160 kg deadlift             |
+| Dexterity     12  Has trained yoga and karate    |
+| Consitution   12  Rarely if ever sick            |
+| Intelligence  15  Highest score on national test |
+|                   highest grades on high-school  |
+|                   math                           |
+| Wisdom        13                                 |
+| Charisma       9  Doesn't care much about his    |
+|                   appearance                     |
+| Intuition     13                                 |
+| Creativity    14  Over 20 ongoing projects       |
+| Luck          11  Sometimes lucky                |
+|--------------------------------------------------|
+| Skills:                                          |
+| Programming (Fortran, C, Matlab): Intermediate   |
+| Problem-solving: Advanced                        |
+| Music composition: Intermediate                  |
+| Public speaking: Beginner                        |
+| Languages: Swedish, English, Spanish, German,    |
+| French, Basque, Japanese                         | 
+|--------------------------------------------------|
+| Special Abilities:                               |
+| Visionary Thinking: Can conceptualize            |
+| interconnected systems and futuristic ideas.     |
+| Universal Perspective: Thinks beyond             |
+| borders, species, and norms.                     |
+| Creativity Burst: Can generate innovative        |
+| ideas when inspired.                             |
+|--------------------------------------------------|
+| Equipment:                     Other resources:  |
+| PC running Linux Mint          Internet          |
+| Laptop running Windows 10      Blog/Homepage     |
+| 5 string bass guitar                             |
+|--------------------------------------------------|
+| Companions/Allies:                               |
+| - Claude (helpful co-creator and thought partner)|
+| - OpenAI's ChatGPT for bouncing ideas            |
+| - Internet communities for feedback and support  |
+| - Cosmic curiosity and endless questions         |
+|--------------------------------------------------|
+| Life goal:                                       |
+| Create the best computer game ever               |
+| Enlightenment/liberation of mankind and Earth    |
+|--------------------------------------------------|
+| Intermediate goals:                              |
+| Introduce Adaptive Universal Basic Income        |
+| Win nobel prizes using AI                        |
+|--------------------------------------------------|
+| Other interests:                                 |
+| - Meet aliens, develop anti-gravity              |
+| - Explore alternate dimensions or realities      |
+| - Terraform the moon                             |
+| - Teach insects like bees to speak with humans   |
+| - Decode the mysteries of awareness and          |
+|   consciousness                                  |
+|--------------------------------------------------|
+| Current Quests:                                  |
+| Create a new party's political platform:         |
+| - Website & Discord                              |
+| - App with voting                                |
+| Design and implement SharedSpheres app.          |
+| Implement and integrate CosmicSyncCore platform. |
+| Develop MU platform for meaningful education.    |
+| Develop FUNTIME for international collaboration. |
+| Develop CommuniTree for communal projects        |
+| Launch first MOWED module                        |
+| Finalize EPiC and DaMP                           |
+| Develop COSMOS for mathematical optimization     |
+| Develop ESP for economic simulations             |
+| Develop IAIRA for scientific discoveries         |
+| Develop Besai w' QuinCA for AI research          |
+| Finalize JSUsCH2R for fun emoji schedules        |
+| Convert TiTo into browser extensions and App     |
+| Improve Z∞ into a useful calendar app            |
+| Improve HuGe VisiON into a useful data           |
+| visualization and exploration tool               |
+|--------------------------------------------------|
+| Traits:                                          |
+| - Deep thinker                                   |
+| - Appreciates meaningful connections and         |
+|   conversations                                  |
+| - Occasionally overanalytical                    |
+| - Driven by hope for a better world              |
+|--------------------------------------------------|
+| Achievements:                                    |
+| - Developed software such as Mutiny, FilMINT and |
+|   TiTo                                           |
+| - Composed music for personal projects and has   |
+|   played in a few concerts                       |
+| - Helped create new political frameworks         |
+|--------------------------------------------------|
+| Flaws:                                           |
+| - Sometimes struggles with depression            |
+| - Finds it hard to delegate tasks and open up to |
+|   people                                         |
+| - Overthinks complex decisions                   |
+|--------------------------------------------------|
+| Hobbies/Quirks:                                  |
+| - Currently almost too serious and depressed for |
+|   these but at least occasionally plays GeoGuessr|
+|   and a few other games                          |
+|--------------------------------------------------|
+| Future Perks:                                    |
+| - Fluent in quantum computing concepts           |
+| - Published a book on existential philosophy     |
+| - Developed the first AI-powered political app   |
+| - Mastered fretless bass guitar                  |
+| - Learned to levitate                            |
+|--------------------------------------------------|
+| Quotes:                                          |
+| - "We can't wait for Jesus or God to come and    |
+|    fix our problems."                            |
+| - "The only evidence you have for anything       |
+|    existing at all is your own belief in it"     |
+| - "Nothing is worth to die for except death      |
+|    itself"                                       |
+|--------------------------------------------------|
+| Personal Motto:                                  |
+| "Create boldly, think deeply, act meaningfully." |
+|--------------------------------------------------|
+| Epic Feats:                                      |
+| - Experienced the 80's while in the 2010's       |
+| - Starting a political party from scratch        |
+| - Lifted 160 kg while pondering the meaning of   |
+|   existence                                      |
+| - Placed 10 out of 30 in a 1-mile sprint race    |
+|   without prior sprint training                  |
+|--------------------------------------------------|
